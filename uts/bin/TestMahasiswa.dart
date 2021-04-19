@@ -8,9 +8,6 @@ void main(List<String> args) {
   ketuaHima.jurusan = "Teknik Informatika";
 
   print("");
-  print("Biodata Ketua Hima");
-  print("Nama     : " + ketuaHima.nama);
-  print("NRP      : " + ketuaHima.nrp.toString());
-  print("Jurusan  : " + ketuaHima.jurusan);
+  ketuaHima.info();
   print("");
 }

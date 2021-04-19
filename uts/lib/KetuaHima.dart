@@ -7,4 +7,10 @@ class KetuaHima extends Mahasiswa {
   set jurusan(String jurusan) {
     _jurusan = jurusan;
   }
+
+  void info() {
+    print("Nama     : " + nama);
+    print("NRP      : " + nrp.toString());
+    print("Jurusan  : " + jurusan);
+  }
 }

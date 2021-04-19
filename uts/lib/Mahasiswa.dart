@@ -11,4 +11,9 @@ class Mahasiswa {
   set nrp(int nrp) {
     _nrp = nrp;
   }
+
+  void info() {
+    print("Nama     : " + nama);
+    print("NRP      : " + nrp.toString());
+  }
 }
